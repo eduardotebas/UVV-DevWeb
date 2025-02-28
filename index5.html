@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,31 +10,66 @@
 </head>
 
 
-<body>
+<body class="container">
+
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="index3.html">Quem Sou</a></li>
+                <li><a href="index4.html">Projetos</a></li>
+                <li><a href="index5.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <br>
+
+        <div class="head">
+            <h1>Contato</h1>
+            <div>
+                <a href="index.html">Home</a> / Contato
+            </div>
+        </div>
+        <br>
 
 
-    <nav class="navbar">
-        <ul class="nav-list">
-            <li><a href="index.html">Principal</a></li>
-            <li><a href="index3.html">Quem Sou</a></li>
-            <li><a href="index4.html">Projetos</a></li>
-            <li><a href="index5.html">Contato</a></li>
-        </ul>
-    </nav>
-<h1><b>Contato</b></h1>
+        <div class="informacoes">
+            <ul class="contato">
+                <li>Endereço: Residente em Vitória</li>
+                <li>eduardohtebas@gmail.com</li>
+                <li>(27) 998147234</li>
+                <li><a href="https://instagram.com/eduardo_htebas">Instagram</a></li>
+            </ul>
 
-<ul>
-    <li>Residente em Vitória</li>
-    <li>eduardohtebas@gmail.com</li>
-    <li>(27) 998147234</li>
-    <li><a href="https://instagram.com/eduardo_htebas">Instagram</a></li>
-</ul>
+        </div>
+        <div class="container">
+            <form class="info">
+                <h2>Entre em contato</h2>
+                <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+                <div class="input-single">
+                    <input type="text" id="nome" name="nome-box" class="input" required>
+                    <label for="nome-box">Seu nome</label>
+                </div>
+                <div class="input-single">
+                    <input type="email" id="email-box" class="input" required>
+                    <label for="email">Seu email</label>
+                </div>
 
-<hr>
-    
-<p>Copyright © 2025</p>
+                <div class="btn">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
 
-<img src="20241118-logo_uvv5.png" alt="">
+    </main>
 
+    <footer class="rodape">
+        <p>Copyright © 2025</p>
+
+        <img src="imagens-site/20241118-logo_uvv5.png" alt="">
+    </footer>
 </body>
+
 </html>
