@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    color: #17121292;
+    text-decoration: none;
+}
+
+.container main {
+    flex: 1 1 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.head {
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: #575757;
+    transform: scale(1.1);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    justify-items: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    background-color: #f2f2f2;
+    max-width: 500px;
+    height: 400px;
+    padding: 30px;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #575757;
+}
+
+form p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.input-single {
+    position: relative;
+    margin: 10px 0;
+}
+
+.input-single label {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: 0.4s;
+    cursor: text;
+}
+
+.input {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+}
+
+form .input-single .input:focus~label,
+form .input-single .input:valid~label {
+    transform: translateY(-25px);
+    font-size: 12px;
+    color: #575757;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+}
+
+form input[type=submit] {
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #575757;
+    color: #fff;
+    cursor: pointer;
+}
+
+.informacoes {
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.informacoes a {
+    color: #000000;
+    text-decoration: none;
+}
