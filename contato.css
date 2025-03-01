@@ -31,6 +31,7 @@ ul {
 .head {
     background-color: #f2f2f2;
     padding: 30px;
+    border-radius: 10px;
 }
 
 .navbar {
@@ -80,6 +81,7 @@ ul {
     gap: 10px;
     margin: 10px;
     justify-content: space-around;
+    box-shadow: 1px 1px 15px -4px;
 }
 
 .container {
