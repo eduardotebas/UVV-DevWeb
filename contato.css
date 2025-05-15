@@ -18,6 +18,22 @@ ul {
     line-height: 24px;
 }
 
+.videocomdavi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .home {
     color: #17121292;
     text-decoration: none;
