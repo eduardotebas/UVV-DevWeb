@@ -1,0 +1,33 @@
+.containerCard {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+
+.card {
+    background-color: #fff;
+    width: 180px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+}
+
+.card h2 {
+    font-size: .9rem;
+    color: #aaaa;
+}
